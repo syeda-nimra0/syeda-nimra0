@@ -1,255 +1,98 @@
-#!/usr/bin/env python3
-"""
-BUTTERFLY.SYS — live data generator
-====================================
-Runs hourly via GitHub Actions.
-Fetches public GitHub data for @syeda-nimra0 and regenerates:
-  - assets/live-status.svg
-  - assets/recent-commits.svg
-  - assets/contribution-wing.svg
+<div align="center">
 
-Pure stdlib (urllib, json, datetime). No pip install needed.
-Authenticates with the auto-provided GITHUB_TOKEN (Actions) for higher
-rate limits (5000/hr instead of 60/hr).
+<a href="https://syedanimra.site.je/">
+  <img src="assets/hero.svg" alt="Syeda Nimra — creative developer. An animated opening scene: a tiny lit desk in the dark, then the name Syeda Nimra, then the line 'this is only the trailer.'" />
+</a>
 
-If run locally without a token, falls back to anonymous (60/hr limit).
-"""
+<br />
 
-import json
-import os
-import sys
-import urllib.request
-import urllib.error
-from datetime import datetime, timezone, timedelta
-from collections import Counter
+<i>Karachi-based creative developer directing interfaces the way a cinematographer directs a scene —<br />
+lighting, pacing, and a reason for every pixel to be there.</i>
 
-# ---------------------------------------------------------------------------
-# Config
-# ---------------------------------------------------------------------------
+<br /><br />
 
-USERNAME = "syeda-nimra0"
-REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ASSETS_DIR = os.path.join(REPO_ROOT, "assets")
+<a href="https://syedanimra.site.je/">Portfolio</a> ·
+<a href="https://www.linkedin.com/in/syeda-nimra-39a794349/">LinkedIn</a> ·
+<a href="https://www.instagram.com/nimr._.exe/">Instagram</a> ·
+<a href="https://github.com/syeda-nimra0">GitHub</a>
 
-# Palette — must match the rest of the README exactly
-COLOR_BG       = "#000000"
-COLOR_DARK     = "#0D0612"
-COLOR_PANEL    = "#1A0F22"
-COLOR_MID      = "#2B1A35"
-COLOR_PURPLE   = "#A456B9"
-COLOR_LAVENDER = "#ECDBFA"
-COLOR_TEXT     = "#F5F0FA"
-COLOR_MUTED    = "#9B8AA8"
+</div>
 
-# Auto-provided in GitHub Actions. Empty when run locally.
-GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "") or os.environ.get("GH_TOKEN", "")
+<br />
 
+---
 
-# ---------------------------------------------------------------------------
-# GitHub API helpers
-# ---------------------------------------------------------------------------
+### 02 — Live System
 
-def api_get(path):
-    url = f"https://api.github.com{path}"
-    req = urllib.request.Request(url)
-    req.add_header("Accept", "application/vnd.github+json")
-    req.add_header("User-Agent", "butterfly-sys-live-data")
-    if GITHUB_TOKEN:
-        req.add_header("Authorization", f"Bearer {GITHUB_TOKEN}")
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            return json.loads(resp.read())
-    except urllib.error.HTTPError as e:
-        if e.code == 403 and "rate limit" in (e.read() or b"").decode("utf-8", "ignore").lower():
-            print("WARN: GitHub API rate-limited. SVGs will use last-good state.", file=sys.stderr)
-            return None
-        raise
+<div align="center">
+  <img src="assets/live-system.svg" alt="Live panel showing follower count, public repo count, total stars, top language, and yearly contributions, pulled from the GitHub API." />
+</div>
 
+<i>Pulled straight from the GitHub REST + GraphQL APIs by a scheduled Action — nothing on this panel is typed in by hand. Refreshed every 12 hours, so treat the numbers as close, not instant.</i>
 
-def fetch_user():
-    return api_get(f"/users/{USERNAME}")
+---
 
+### 03 — Signal / Build Log
 
-def fetch_events():
-    return api_get(f"/users/{USERNAME}/events?per_page=100") or []
+<div align="center">
+  <img src="assets/contribution-waveform.svg" alt="A custom waveform visualization of weekly GitHub contributions over the last six months, replacing the standard green contribution grid, with a short list of recent public activity." />
+</div>
 
+<i>The usual green grid, redrawn as a signal instead of a calendar. Bar height is real weekly contribution volume from the GitHub GraphQL API; the lines underneath are the most recent public activity.</i>
 
-def fetch_repos():
-    return api_get(f"/users/{USERNAME}/repos?per_page=100&sort=updated") or []
+---
 
+### 04 — Selected Work
 
-def get_last_push_event(events):
-    for ev in events:
-        if ev.get("type") == "PushEvent":
-            return ev
-    return None
+Three client builds, picked because they cover three different registers — commercial/print, personal portfolio, and a full personal brand site.
 
+<br />
 
-def time_ago(iso_ts):
-    if not iso_ts:
-        return "unknown"
-    try:
-        dt = datetime.fromisoformat(iso_ts.replace("Z", "+00:00"))
-    except ValueError:
-        return "unknown"
-    now = datetime.now(timezone.utc)
-    delta = now - dt
-    minutes = int(delta.total_seconds() / 60)
-    if minutes < 1:
-        return "just now"
-    if minutes < 60:
-        return f"{minutes}m ago"
-    hours = int(minutes / 60)
-    if hours < 24:
-        return f"{hours}h ago"
-    days = int(hours / 24)
-    if days < 30:
-        return f"{days}d ago"
-    months = int(days / 30)
-    return f"{months}mo ago"
+**Printcivic** — Brand identity and commercial print studio site, built around a 200+ project, 50+ client track record across Nigeria. Dark, confident, print-led visual system.
+`Brand identity · Commercial print · Netlify`
+→ [printcivic.netlify.app](https://printcivic.netlify.app/)
 
+---
 
-def is_live(last_push_iso, max_hours=24):
-    if not last_push_iso:
-        return False
-    try:
-        dt = datetime.fromisoformat(last_push_iso.replace("Z", "+00:00"))
-    except ValueError:
-        return False
-    delta = datetime.now(timezone.utc) - dt
-    return delta.total_seconds() < max_hours * 3600
+**Afsheen** — Portfolio for a frontend developer and UI/UX designer, presenting responsive, elegant interface work across e-commerce, beauty, and restaurant brands.
+`Frontend portfolio · UI/UX · Netlify`
+→ [afsheen-portfolio.netlify.app](https://afsheen-portfolio.netlify.app/)
 
+---
 
-# ---------------------------------------------------------------------------
-# SVG helpers
-# ---------------------------------------------------------------------------
+**Fareed Amir** — Personal brand site for a full-stack/AI developer: video-driven hero, a scroll-paced experience timeline, and a live project showcase.
+`Personal brand site · Animated hero · Netlify`
+→ [fareed-amir.netlify.app](https://fareed-amir.netlify.app/)
 
-def svg_header(width, height, title, desc):
-    return (
-        f'<?xml version="1.0" encoding="UTF-8"?>\n'
-        f'<svg xmlns="http://www.w3.org/2000/svg" '
-        f'viewBox="0 0 {width} {height}" width="100%" role="img" '
-        f'aria-label="{title}">\n'
-        f'  <title>{title}</title>\n'
-        f'  <desc>{desc}</desc>\n'
-    )
+---
 
+### 05 — Current State
 
-def svg_footer():
-    return "</svg>\n"
+<div align="center">
+  <img src="assets/current-state.svg" alt="Panel showing what Syeda Nimra is currently building and her current availability for freelance work." />
+</div>
 
+<i>Self-reported, not scraped — sourced from <a href="status.json"><code>status.json</code></a> in this repo. Edit that file and push; the panel above repaints itself.</i>
 
-def esc(s):
-    """Escape XML special chars."""
-    return (
-        str(s)
-        .replace("&", "&amp;")
-        .replace("<", "&lt;")
-        .replace(">", "&gt;")
-        .replace('"', "&quot;")
-    )
+---
 
+### 06 — Final Cut
 
-# ---------------------------------------------------------------------------
-# Generators
-# ---------------------------------------------------------------------------
+<div align="center">
 
-def generate_live_status_svg(user, last_push_iso, is_live_status):
-    followers = user.get("followers", 0)
-    public_repos = user.get("public_repos", 0)
-    following = user.get("following", 0)
-    starred_url = f"https://api.github.com/users/{USERNAME}/starred"
-    last_commit_str = time_ago(last_push_iso) if last_push_iso else "unknown"
+<a href="https://syedanimra.site.je/">
+  <img src="assets/cta.svg" alt="This is only the trailer. Visit syedanimra.site.je for the full experience." />
+</a>
 
-    dot_color = COLOR_PURPLE if is_live_status else COLOR_MUTED
-    status_text = "LIVE" if is_live_status else "IDLE"
+<br /><br />
 
-    svg = svg_header(800, 80, "Live Status", f"GitHub live signal for @{USERNAME}")
-    svg += f'  <rect width="800" height="80" fill="{COLOR_PANEL}" rx="8"/>\n'
-    svg += f'  <rect x="0" y="0" width="800" height="2" fill="{COLOR_PURPLE}" opacity="0.6"/>\n'
-    svg += f'  <g transform="translate(30, 40)">\n'
-    svg += f'    <circle cx="0" cy="0" r="6" fill="{dot_color}">\n'
-    svg += f'      <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>\n'
-    svg += f'    </circle>\n'
-    svg += f'    <text x="20" y="6" font-family="\'JetBrains Mono\',\'Courier New\',monospace" font-size="14" fill="{COLOR_LAVENDER}" font-weight="600" letter-spacing="2">{status_text}</text>\n'
-    svg += f'  </g>\n'
-    svg += f'  <g transform="translate(140, 40)" font-family="\'JetBrains Mono\',\'Courier New\',monospace" font-size="13" fill="{COLOR_TEXT}">\n'
-    svg += f'    <text x="0" y="6">repos</text>\n'
-    svg += f'    <text x="40" y="6" fill="{COLOR_LAVENDER}" font-weight="600">{public_repos}</text>\n'
-    svg += f'    <text x="100" y="6" fill="{COLOR_MUTED}">·</text>\n'
-    svg += f'    <text x="120" y="6">followers</text>\n'
-    svg += f'    <text x="190" y="6" fill="{COLOR_LAVENDER}" font-weight="600">{followers}</text>\n'
-    svg += f'    <text x="240" y="6" fill="{COLOR_MUTED}">·</text>\n'
-    svg += f'    <text x="260" y="6">following</text>\n'
-    svg += f'    <text x="325" y="6" fill="{COLOR_LAVENDER}" font-weight="600">{following}</text>\n'
-    svg += f'    <text x="370" y="6" fill="{COLOR_MUTED}">·</text>\n'
-    svg += f'    <text x="390" y="6">last commit</text>\n'
-    svg += f'    <text x="475" y="6" fill="{COLOR_LAVENDER}" font-weight="600">{esc(last_commit_str)}</text>\n'
-    svg += f'  </g>\n'
-    svg += f'  <text x="780" y="46" text-anchor="end" font-family="\'JetBrains Mono\',monospace" font-size="10" fill="{COLOR_MUTED}" letter-spacing="1">REFRESHED {datetime.now(timezone.utc).strftime("%H:%M UTC")}</text>\n'
-    svg += svg_footer()
-    return svg
+**[→ watch the full film](https://syedanimra.site.je/)**
 
+</div>
 
-def generate_recent_commits_svg(events):
-    push_events = [e for e in events if e.get("type") == "PushEvent"][:5]
+<br />
 
-    svg = svg_header(800, 220, "Recent Transmissions", f"Recent commits by @{USERNAME}")
-    svg += f'  <rect width="800" height="220" fill="{COLOR_PANEL}" rx="8"/>\n'
-    svg += f'  <rect x="0" y="0" width="800" height="2" fill="{COLOR_PURPLE}" opacity="0.4"/>\n'
-    svg += f'  <text x="30" y="34" font-family="\'Bebas Neue\',\'Arial Narrow\',sans-serif" font-size="18" fill="{COLOR_LAVENDER}" letter-spacing="3">RECENT TRANSMISSIONS</text>\n'
-    svg += f'  <text x="770" y="34" text-anchor="end" font-family="\'JetBrains Mono\',monospace" font-size="10" fill="{COLOR_MUTED}">live</text>\n'
-
-    if not push_events:
-        svg += f'  <text x="30" y="80" font-family="\'Montserrat\',sans-serif" font-size="13" fill="{COLOR_MUTED}">no recent activity — the studio is quiet.</text>\n'
-    else:
-        y = 70
-        for ev in push_events:
-            repo_name = ev.get("repo", {}).get("name", "unknown")
-            repo_short = repo_name.split("/")[-1] if "/" in repo_name else repo_name
-            created = ev.get("created_at", "")
-            time_str = time_ago(created)
-
-            commits = ev.get("payload", {}).get("commits", [])
-            if commits:
-                msg = commits[0].get("message", "").split("\n")[0]
-                if len(msg) > 70:
-                    msg = msg[:67] + "..."
-            else:
-                msg = "(no message)"
-
-            svg += f'  <g transform="translate(30, {y})">\n'
-            svg += f'    <text x="0" y="0" font-family="\'JetBrains Mono\',monospace" font-size="11" fill="{COLOR_PURPLE}">▚</text>\n'
-            svg += f'    <text x="20" y="0" font-family="\'JetBrains Mono\',monospace" font-size="13" fill="{COLOR_TEXT}" font-weight="600">{esc(repo_short)}</text>\n'
-            svg += f'    <text x="20" y="18" font-family="\'Montserrat\',sans-serif" font-size="12" fill="{COLOR_MUTED}">{esc(msg)}</text>\n'
-            svg += f'    <text x="745" y="0" text-anchor="end" font-family="\'JetBrains Mono\',monospace" font-size="11" fill="{COLOR_MUTED}">{esc(time_str)}</text>\n'
-            svg += f'  </g>\n'
-            y += 32
-
-    svg += svg_footer()
-    return svg
-
-
-def generate_contribution_wing_svg(events):
-    """
-    Render recent ~30 days of push activity as a butterfly wing.
-    Each day becomes a 'spot' on the wing. More commits = larger, brighter spot.
-    Two mirrored wings around a central body.
-    """
-    daily_counts = Counter()
-    for ev in events:
-        if ev.get("type") == "PushEvent":
-            day = ev.get("created_at", "")[:10]
-            if day:
-                daily_counts[day] += 1
-
-    today = datetime.now(timezone.utc).date()
-    days = [(today - timedelta(days=i)) for i in range(29, -1, -1)]
-    counts = [daily_counts.get(d.isoformat(), 0) for d in days]
-    max_count = max(counts) if counts else 1
-    if max_count == 0:
-        max_count = 1
-
+<div align="center"><sub>README = trailer. Portfolio = full experience.</sub></div>
     svg = svg_header(800, 240, "Recent Wingbeats", f"Recent 30 days of GitHub activity rendered as a butterfly wing for @{USERNAME}")
     svg += f'  <rect width="800" height="240" fill="{COLOR_PANEL}" rx="8"/>\n'
     svg += f'  <rect x="0" y="0" width="800" height="2" fill="{COLOR_PURPLE}" opacity="0.4"/>\n'
