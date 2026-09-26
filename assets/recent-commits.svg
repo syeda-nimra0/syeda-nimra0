@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%" role="img" aria-label="Recent Transmissions">
+  <title>Recent Transmissions</title>
+  <desc>Recent commits by @syeda-nimra0</desc>
+  <rect width="800" height="220" fill="#1A0F22" rx="8"/>
+  <rect x="0" y="0" width="800" height="2" fill="#A456B9" opacity="0.4"/>
+  <text x="30" y="34" font-family="'Bebas Neue','Arial Narrow',sans-serif" font-size="18" fill="#ECDBFA" letter-spacing="3">RECENT TRANSMISSIONS</text>
+  <text x="770" y="34" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="10" fill="#9B8AA8">live</text>
+  <g transform="translate(30, 70)">
+    <text x="0" y="0" font-family="'JetBrains Mono',monospace" font-size="11" fill="#A456B9">▚</text>
+    <text x="20" y="0" font-family="'JetBrains Mono',monospace" font-size="13" fill="#F5F0FA" font-weight="600">syeda-nimra0</text>
+    <text x="20" y="18" font-family="'Montserrat',sans-serif" font-size="12" fill="#9B8AA8">(no message)</text>
+    <text x="745" y="0" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="11" fill="#9B8AA8">3d ago</text>
+  </g>
+  <g transform="translate(30, 102)">
+    <text x="0" y="0" font-family="'JetBrains Mono',monospace" font-size="11" fill="#A456B9">▚</text>
+    <text x="20" y="0" font-family="'JetBrains Mono',monospace" font-size="13" fill="#F5F0FA" font-weight="600">learnly-platform</text>
+    <text x="20" y="18" font-family="'Montserrat',sans-serif" font-size="12" fill="#9B8AA8">(no message)</text>
+    <text x="745" y="0" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="11" fill="#9B8AA8">27d ago</text>
+  </g>
+  <g transform="translate(30, 134)">
+    <text x="0" y="0" font-family="'JetBrains Mono',monospace" font-size="11" fill="#A456B9">▚</text>
+    <text x="20" y="0" font-family="'JetBrains Mono',monospace" font-size="13" fill="#F5F0FA" font-weight="600">Fem-Hack-Support-Flow</text>
+    <text x="20" y="18" font-family="'Montserrat',sans-serif" font-size="12" fill="#9B8AA8">(no message)</text>
+    <text x="745" y="0" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="11" fill="#9B8AA8">26d ago</text>
+  </g>
+  <g transform="translate(30, 166)">
+    <text x="0" y="0" font-family="'JetBrains Mono',monospace" font-size="11" fill="#A456B9">▚</text>
+    <text x="20" y="0" font-family="'JetBrains Mono',monospace" font-size="13" fill="#F5F0FA" font-weight="600">Fem-Hack-Support-Flow</text>
+    <text x="20" y="18" font-family="'Montserrat',sans-serif" font-size="12" fill="#9B8AA8">(no message)</text>
+    <text x="745" y="0" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="11" fill="#9B8AA8">26d ago</text>
+  </g>
+  <g transform="translate(30, 198)">
+    <text x="0" y="0" font-family="'JetBrains Mono',monospace" font-size="11" fill="#A456B9">▚</text>
+    <text x="20" y="0" font-family="'JetBrains Mono',monospace" font-size="13" fill="#F5F0FA" font-weight="600">Fem-Hack-Support-Flow</text>
+    <text x="20" y="18" font-family="'Montserrat',sans-serif" font-size="12" fill="#9B8AA8">(no message)</text>
+    <text x="745" y="0" text-anchor="end" font-family="'JetBrains Mono',monospace" font-size="11" fill="#9B8AA8">26d ago</text>
+  </g>
+</svg>

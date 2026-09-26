@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" role="img" aria-label="Specimen 01 — Afsheen Khan Portfolio">
+  <title>Specimen 01 — Afsheen Khan Portfolio</title>
+  <desc>A warm-editorial portfolio site built with Vite + React + Lenis for Afsheen Khan, a frontend developer and UI/UX designer in Khyber Pakhtunkhwa, Pakistan.</desc>
+
+  <rect width="800" height="200" fill="#1A0F22" rx="8"/>
+  <rect x="0" y="0" width="800" height="2" fill="#A456B9" opacity="0.5"/>
+
+  <!-- Specimen number -->
+  <text x="30" y="40" font-family="'Bebas Neue','Arial Narrow',sans-serif" font-size="36" fill="#A456B9" letter-spacing="2">01</text>
+  <text x="30" y="58" font-family="'JetBrains Mono','Courier New',monospace" font-size="9" fill="#9B8AA8" letter-spacing="2">SPECIMEN</text>
+
+  <!-- Title -->
+  <text x="30" y="100" font-family="'Bebas Neue','Arial Narrow',sans-serif" font-size="26" fill="#ECDBFA" letter-spacing="2">AFSHEEN KHAN PORTFOLIO</text>
+  <text x="30" y="118" font-family="'Montserrat',sans-serif" font-size="12" fill="#9B8AA8" font-style="italic">personal portfolio · frontend developer &amp; UI/UX designer · Pakistan</text>
+
+  <!-- Verified build stack -->
+  <g transform="translate(30, 138)">
+    <text x="0" y="0" font-family="'JetBrains Mono','Courier New',monospace" font-size="10" fill="#9B8AA8" letter-spacing="1">BUILD</text>
+    <text x="50" y="0" font-family="'JetBrains Mono','Courier New',monospace" font-size="10" fill="#ECDBFA">Vite + React + Lenis + Cloudinary</text>
+  </g>
+  <g transform="translate(30, 158)">
+    <text x="0" y="0" font-family="'JetBrains Mono','Courier New',monospace" font-size="10" fill="#9B8AA8" letter-spacing="1">NOTE</text>
+    <text x="50" y="0" font-family="'Montserrat',sans-serif" font-size="11" fill="#F5F0FA">warm editorial · Cormorant + Lato · Awwwards-adjacent polish</text>
+  </g>
+
+  <!-- Palette strip — extracted from live site -->
+  <g transform="translate(560, 30)">
+    <text x="0" y="0" font-family="'JetBrains Mono','Courier New',monospace" font-size="9" fill="#9B8AA8" letter-spacing="2">PALETTE</text>
+    <rect x="0" y="10" width="40" height="80" fill="#fbf3ef"/>
+    <rect x="42" y="10" width="40" height="80" fill="#a07351"/>
+    <rect x="84" y="10" width="40" height="80" fill="#6c562d"/>
+    <rect x="126" y="10" width="40" height="80" fill="#f9d8cf"/>
+    <rect x="168" y="10" width="40" height="80" fill="#3a2c1f"/>
+    <text x="0" y="105" font-family="'Montserrat',sans-serif" font-size="9" fill="#9B8AA8">cream · copper · olive · blush · ink</text>
+  </g>
+
+  <!-- Visit link -->
+  <a href="https://afsheen-portfolio.netlify.app/" target="_blank" rel="noopener">
+    <text x="770" y="185" text-anchor="end" font-family="'Bebas Neue','Arial Narrow',sans-serif" font-size="16" fill="#A456B9" letter-spacing="3">OBSERVE SPECIMEN →</text>
+  </a>
+</svg>

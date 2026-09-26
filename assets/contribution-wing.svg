@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" role="img" aria-label="Recent Wingbeats">
+  <title>Recent Wingbeats</title>
+  <desc>Recent 30 days of GitHub activity rendered as a butterfly wing for @syeda-nimra0</desc>
+  <rect width="800" height="240" fill="#1A0F22" rx="8"/>
+  <rect x="0" y="0" width="800" height="2" fill="#A456B9" opacity="0.4"/>
+  <text x="400" y="36" text-anchor="middle" font-family="'Bebas Neue','Arial Narrow',sans-serif" font-size="18" fill="#ECDBFA" letter-spacing="3">RECENT WINGBEATS</text>
+  <text x="400" y="56" text-anchor="middle" font-family="'Montserrat',sans-serif" font-size="11" fill="#9B8AA8">30 days · 21 wing-flaps · generated from real GitHub events</text>
+  <ellipse cx="400" cy="145" rx="4" ry="38" fill="#0D0612"/>
+  <circle cx="400" cy="104" r="5" fill="#0D0612"/>
+  <path d="M 400 100 Q 392 92 388 88" stroke="#0D0612" stroke-width="1.2" fill="none"/>
+  <path d="M 400 100 Q 408 92 412 88" stroke="#0D0612" stroke-width="1.2" fill="none"/>
+  <circle cx="388" cy="88" r="1.5" fill="#A456B9"/>
+  <circle cx="412" cy="88" r="1.5" fill="#A456B9"/>
+  <circle cx="368.5" cy="110.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="364.4" cy="115.0" r="4.2" fill="#A456B9" opacity="0.41"/>
+  <circle cx="360.4" cy="120.0" r="10.2" fill="#A456B9" opacity="1.00"/>
+  <circle cx="356.4" cy="125.0" r="10.2" fill="#A456B9" opacity="0.94"/>
+  <circle cx="352.3" cy="130.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="348.2" cy="135.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="344.2" cy="140.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="340.1" cy="145.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="336.1" cy="150.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="332.1" cy="155.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="328.0" cy="160.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="323.9" cy="165.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="319.9" cy="170.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="315.9" cy="175.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="311.8" cy="180.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="431.5" cy="110.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="435.6" cy="115.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="439.6" cy="120.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="443.6" cy="125.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="447.7" cy="130.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="451.8" cy="135.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="455.8" cy="140.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="459.9" cy="145.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="463.9" cy="150.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="467.9" cy="155.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="472.0" cy="160.0" r="4.2" fill="#A456B9" opacity="0.41"/>
+  <circle cx="476.1" cy="165.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="480.1" cy="170.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="484.1" cy="175.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <circle cx="488.2" cy="180.0" r="2.5" fill="#2B1A35" opacity="0.08"/>
+  <text x="400" y="220" text-anchor="middle" font-family="'Montserrat',sans-serif" font-size="10" fill="#9B8AA8" font-style="italic">each spot is a day. brightness = commits that day.</text>
+</svg>
