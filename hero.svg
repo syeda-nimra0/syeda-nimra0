@@ -1,0 +1,222 @@
+<svg width="900" height="380" viewBox="0 0 900 380"
+     xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="heroTitle heroDesc" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTpjYzI3NTc0Yi0zZTk0LTRmNDYtYTc4OC03NmMwYmVmNjBjNGIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaMQAWQcB7FHMpTC5hlo3HMwAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo3N2EyMWU5OS0yMzY1LTQ5NTQtYWJkNy1lNWY1ZGUzYjQ0YTRscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoIHOkuGl0WA4HzdXdpQjvcAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggvtaRSX/ls8DnrzJQGdPZxt7jHAp1nLFn7fT8RoG7nxCkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaHgsRQXq/OSvw2xJYN/BgLQAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCCOuKOwDJniutJ09CIgEPFQaPzo0iWVTm+Wh6Nv4g803mRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjLZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmNjMjc1NzRiLTNlOTQtNGY0Ni1hNzg4LTc2YzBiZWY2MGM0Yi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjA3ZmM0NDBjLTNlMzgtNDUzYy1hN2Y0LTRlZjAzYTE4NDNhYXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCC+1pFJf+WzwOevMlAZ09nG3uMcCnWcsWft9PxGgbufEKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggvICFDXtc9tRtueIeymr+MI4bYf6Yvd4e69MRwBUIS1GiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggNCmXbqUWryLKy/k581g5oHsHU6/B4+lJEyhVH86thB50Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQG7cbmc15vOj6nrieCUEV2l5d4HOJpz3ar/s7kjCAjoWYk14+OUmjoZ++buTJxbxsBma2NQMdQ8Mo+U2eOiSAH0=</c2pa:manifest></metadata>
+  <title id="heroTitle">Syeda Nimra — opening title sequence</title>
+  <desc id="heroDesc">A dark, minimal animated scene of a tiny lit desk and laptop, followed by the name Syeda Nimra and the line "this is only the trailer," looping every 14 seconds.</desc>
+
+  <defs>
+    <radialGradient id="roomGlow" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#A456B9" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#A456B9" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="ambient" cx="30%" cy="10%" r="75%">
+      <stop offset="0%" stop-color="#A456B9" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#A456B9" stop-opacity="0" />
+    </radialGradient>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" />
+    </filter>
+    <filter id="tightGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="1.4" />
+    </filter>
+    <linearGradient id="glassSheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.05" />
+      <stop offset="35%" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- base -->
+  <rect x="0" y="0" width="900" height="380" fill="#050505" />
+  <rect x="0" y="0" width="900" height="380" fill="url(#ambient)" />
+
+  <!-- drifting atmosphere -->
+  <g>
+    <circle cx="528.9" cy="218.6" r="1.47" fill="#A456B9" opacity="0.15">
+      <animate attributeName="cy" from="218.6" to="137.5"
+               dur="9.40s" begin="-4.95s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.2;0.8;1"
+               dur="9.40s" begin="-4.95s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="547.3" cy="310.4" r="0.92" fill="#A456B9" opacity="0.16">
+      <animate attributeName="cy" from="310.4" to="252.1"
+               dur="15.06s" begin="-11.23s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.26;0.26;0" keyTimes="0;0.2;0.8;1"
+               dur="15.06s" begin="-11.23s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="213.9" cy="230.2" r="1.39" fill="#A456B9" opacity="0.26">
+      <animate attributeName="cy" from="230.2" to="159.0"
+               dur="8.03s" begin="-3.78s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.44;0.44;0" keyTimes="0;0.2;0.8;1"
+               dur="8.03s" begin="-3.78s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="99.9" cy="250.3" r="0.95" fill="#A456B9" opacity="0.25">
+      <animate attributeName="cy" from="250.3" to="218.4"
+               dur="8.49s" begin="-1.58s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.42;0.42;0" keyTimes="0;0.2;0.8;1"
+               dur="8.49s" begin="-1.58s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="473.7" cy="126.0" r="1.70" fill="#A456B9" opacity="0.16">
+      <animate attributeName="cy" from="126.0" to="85.6"
+               dur="11.90s" begin="-9.63s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.26;0.26;0" keyTimes="0;0.2;0.8;1"
+               dur="11.90s" begin="-9.63s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="410.9" cy="128.2" r="1.32" fill="#A456B9" opacity="0.23">
+      <animate attributeName="cy" from="128.2" to="95.2"
+               dur="12.77s" begin="-3.13s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.38;0.38;0" keyTimes="0;0.2;0.8;1"
+               dur="12.77s" begin="-3.13s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="223.4" cy="186.8" r="1.72" fill="#A456B9" opacity="0.15">
+      <animate attributeName="cy" from="186.8" to="112.5"
+               dur="12.06s" begin="-2.46s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.2;0.8;1"
+               dur="12.06s" begin="-2.46s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="288.5" cy="136.4" r="1.48" fill="#A456B9" opacity="0.11">
+      <animate attributeName="cy" from="136.4" to="66.8"
+               dur="13.54s" begin="-12.56s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.18;0.18;0" keyTimes="0;0.2;0.8;1"
+               dur="13.54s" begin="-12.56s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="796.1" cy="214.9" r="0.78" fill="#A456B9" opacity="0.17">
+      <animate attributeName="cy" from="214.9" to="128.3"
+               dur="8.89s" begin="-0.14s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.28;0.28;0" keyTimes="0;0.2;0.8;1"
+               dur="8.89s" begin="-0.14s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="435.7" cy="254.6" r="0.70" fill="#A456B9" opacity="0.15">
+      <animate attributeName="cy" from="254.6" to="170.6"
+               dur="13.76s" begin="-12.86s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.25;0.25;0" keyTimes="0;0.2;0.8;1"
+               dur="13.76s" begin="-12.86s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="611.1" cy="159.5" r="1.67" fill="#A456B9" opacity="0.21">
+      <animate attributeName="cy" from="159.5" to="98.3"
+               dur="8.96s" begin="-8.92s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.35;0.35;0" keyTimes="0;0.2;0.8;1"
+               dur="8.96s" begin="-8.92s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="774.6" cy="215.5" r="1.04" fill="#A456B9" opacity="0.25">
+      <animate attributeName="cy" from="215.5" to="150.8"
+               dur="12.77s" begin="-4.12s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.41;0.41;0" keyTimes="0;0.2;0.8;1"
+               dur="12.77s" begin="-4.12s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="290.3" cy="218.9" r="1.50" fill="#A456B9" opacity="0.18">
+      <animate attributeName="cy" from="218.9" to="138.4"
+               dur="15.95s" begin="-14.20s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.30;0.30;0" keyTimes="0;0.2;0.8;1"
+               dur="15.95s" begin="-14.20s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="485.3" cy="185.1" r="1.51" fill="#A456B9" opacity="0.28">
+      <animate attributeName="cy" from="185.1" to="149.1"
+               dur="10.51s" begin="-8.26s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.47;0.47;0" keyTimes="0;0.2;0.8;1"
+               dur="10.51s" begin="-8.26s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="133.0" cy="224.6" r="0.77" fill="#A456B9" opacity="0.24">
+      <animate attributeName="cy" from="224.6" to="145.3"
+               dur="15.78s" begin="-2.82s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.40;0.40;0" keyTimes="0;0.2;0.8;1"
+               dur="15.78s" begin="-2.82s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="605.8" cy="169.1" r="0.81" fill="#A456B9" opacity="0.13">
+      <animate attributeName="cy" from="169.1" to="114.3"
+               dur="13.24s" begin="-4.45s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0;0.22;0.22;0" keyTimes="0;0.2;0.8;1"
+               dur="13.24s" begin="-4.45s" repeatCount="indefinite" />
+    </circle></g>
+
+  <!-- miniature desk scene, framed like a small vitrine -->
+  <g transform="translate(120,150)">
+    <ellipse cx="110" cy="150" rx="150" ry="40" fill="url(#roomGlow)" filter="url(#softGlow)">
+      <animate attributeName="opacity" values="0.5;0.5;1;1;0.6;0.6;0.5" keyTimes="0;0.14;0.32;0.68;0.82;0.94;1"
+             dur="14s" begin="0s" repeatCount="indefinite" />
+    </ellipse>
+
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;0;1;1;0.55;0.55;0" keyTimes="0;0.10;0.30;0.72;0.85;0.95;1"
+             dur="14s" begin="0s" repeatCount="indefinite" />
+
+      <!-- vitrine frame: thin glass-like border around the little world -->
+      <rect x="-10" y="-8" width="240" height="176" rx="16" fill="none"
+            stroke="#A456B9" stroke-opacity="0.28" stroke-width="1" />
+      <rect x="-10" y="-8" width="240" height="176" rx="16" fill="url(#glassSheen)" />
+
+      <!-- desk -->
+      <polygon points="0,150 220,150 195,168 25,168" fill="#0c0c10" stroke="#A456B9" stroke-opacity="0.18" />
+      <rect x="0" y="146" width="220" height="4" fill="#0a0a0d" />
+
+      <!-- laptop base -->
+      <polygon points="68,146 152,146 146,154 74,154" fill="#111016" stroke="#A456B9" stroke-opacity="0.25" />
+      <!-- laptop screen -->
+      <g transform="translate(72,80)">
+        <rect x="0" y="0" width="80" height="66" rx="3" fill="#0b0b0f" stroke="#A456B9" stroke-opacity="0.4" />
+        <rect x="4" y="4" width="72" height="58" rx="1.5" fill="#0e0710" />
+        <g transform="translate(8,10)">
+      <rect x="4" y="6" width="34" height="2.4" rx="1.2"
+            fill="#A456B9" opacity="0.85">
+        <animate attributeName="width" values="34;24;34"
+                 dur="3.00s" begin="0.00s" repeatCount="indefinite" />
+      </rect>
+      <rect x="4" y="13" width="22" height="2.4" rx="1.2"
+            fill="#8a8790" opacity="0.5">
+        <animate attributeName="width" values="22;12;22"
+                 dur="3.60s" begin="0.40s" repeatCount="indefinite" />
+      </rect>
+      <rect x="4" y="20" width="28" height="2.4" rx="1.2"
+            fill="#A456B9" opacity="0.85">
+        <animate attributeName="width" values="28;18;28"
+                 dur="4.20s" begin="0.80s" repeatCount="indefinite" />
+      </rect>
+      <rect x="4" y="27" width="18" height="2.4" rx="1.2"
+            fill="#8a8790" opacity="0.5">
+        <animate attributeName="width" values="18;8;18"
+                 dur="4.80s" begin="1.20s" repeatCount="indefinite" />
+      </rect>
+      <rect x="4" y="34" width="30" height="2.4" rx="1.2"
+            fill="#A456B9" opacity="0.85">
+        <animate attributeName="width" values="30;20;30"
+                 dur="5.40s" begin="1.60s" repeatCount="indefinite" />
+      </rect></g>
+      </g>
+
+      <!-- creator silhouette, seated at the desk -->
+      <g transform="translate(30,96)">
+        <path d="M0,50 C0,30 6,14 20,14 C34,14 40,30 40,50 Z" fill="#08080a" stroke="#A456B9" stroke-opacity="0.2" />
+        <circle cx="20" cy="4" r="10" fill="#08080a" stroke="#A456B9" stroke-opacity="0.25" />
+        <path d="M0,50 C0,30 6,14 20,14" fill="none" stroke="#A456B9" stroke-opacity="0.5" stroke-width="1" />
+      </g>
+
+      <!-- tiny floating light source above the desk -->
+      <circle cx="110" cy="6" r="2.4" fill="#A456B9" filter="url(#tightGlow)">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="3.4s" repeatCount="indefinite" />
+      </circle>
+    </g>
+  </g>
+
+  <!-- title card -->
+  <g transform="translate(440,150)">
+    <text x="0" y="0" font-family="'Iowan Old Style','Palatino Linotype',Georgia,'Times New Roman',serif" font-size="46" fill="#f2f0f3" opacity="1">
+      SYEDA NIMRA
+      <animate attributeName="opacity" values="0;0;1;1;0.5;0.5;0" keyTimes="0;0.32;0.40;0.72;0.82;0.94;1"
+             dur="14s" begin="0s" repeatCount="indefinite" />
+      <animate attributeName="transform" additive="sum" type="translate"
+               values="0,10;0,10;0,0;0,0" keyTimes="0;0.32;0.42;1"
+               dur="14s" begin="0s" repeatCount="indefinite" />
+    </text>
+
+    <text x="2" y="30" font-family="ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace" font-size="12.5" letter-spacing="1.5" fill="#8a8790" opacity="1">
+      CREATIVE DEVELOPER · FULL-STACK BUILDER
+      <animate attributeName="opacity" values="0;0;1;1;0.5;0.5;0" keyTimes="0;0.42;0.52;0.72;0.82;0.94;1"
+             dur="14s" begin="0s" repeatCount="indefinite" />
+    </text>
+
+    <g opacity="1">
+      <animate attributeName="opacity" values="0;0;0;1;1;0;0" keyTimes="0;0.55;0.66;0.78;0.90;0.97;1"
+             dur="14s" begin="0s" repeatCount="indefinite" />
+      <rect x="2" y="52" width="30" height="1" fill="#A456B9" />
+      <text x="2" y="76" font-family="ui-monospace,'SF Mono','JetBrains Mono',Menlo,Consolas,monospace" font-size="13" letter-spacing="2.5" fill="#8a5c9c">THIS IS ONLY THE TRAILER</text>
+    </g>
+  </g>
+</svg>
