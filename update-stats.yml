@@ -1,0 +1,60 @@
+name: Update live stats
+
+# Refreshes assets/live-system.svg and assets/contribution-waveform.svg
+# from the GitHub REST + GraphQL APIs.
+#
+# Trigger is schedule + manual dispatch ONLY (never "push") — this is what
+# stops this workflow from ever re-triggering itself when it commits.
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # every 12 hours — see README for why this isn't called "real-time"
+  workflow_dispatch: {}
+
+# Minimum permission needed: write, so the workflow can commit the regenerated SVGs.
+permissions:
+  contents: write
+
+# If a run is still going when the next scheduled run fires, cancel the older one
+# instead of letting two commit jobs race each other.
+concurrency:
+  group: update-stats
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate live-system.svg
+        env:
+          GH_USERNAME: ${{ github.repository_owner }}
+          # Prefer a fine-grained PAT (secrets.GH_PAT) if one was added — it can read
+          # contributionsCollection for the GraphQL waveform query. Falls back to the
+          # default token, which still covers the REST-only live-system panel.
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: node scripts/generate-live-system.mjs
+
+      - name: Generate contribution-waveform.svg
+        env:
+          GH_USERNAME: ${{ github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: node scripts/generate-waveform.mjs
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- assets/live-system.svg assets/contribution-waveform.svg; then
+            echo "No visual change — skipping commit."
+            exit 0
+          fi
+          git add assets/live-system.svg assets/contribution-waveform.svg
+          git commit -m "chore: refresh live stats [skip ci]"
+          git push
