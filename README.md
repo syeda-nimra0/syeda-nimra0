@@ -1,214 +1,95 @@
-<!--
-  BUTTERFLY.SYS — a small machine that turns caffeine into websites
-  ================================================================
-  Profile README for @syeda-nimra0 (Nimra Basharat)
+<div align="center">
 
-  This README is intentionally quiet, cinematic, and personal.
-  Live data is generated hourly by .github/workflows/refresh-live-data.yml
-  and committed back to ./assets/.
+<a href="https://syedanimra.site.je/">
+  <img src="assets/hero.svg" alt="Syeda Nimra — creative developer. An animated opening scene: a tiny lit desk in the dark, then the name Syeda Nimra, then the line 'this is only the trailer.'" />
+</a>
 
-  To customise: see SETUP.md
--->
+<br />
 
-<p align="center">
-  <img src="./assets/butterfly-logo.svg" alt="BUTTERFLY.SYS" width="320" />
-</p>
+<i>Karachi-based creative developer directing interfaces the way a cinematographer directs a scene —<br />
+lighting, pacing, and a reason for every pixel to be there.</i>
 
-<p align="center">
-  <img src="./assets/hero-studio.svg" alt="The studio at 3am — a small isometric room where websites get made. Purple lamp glowing, monitor displaying contribution activity, coffee steaming, butterfly on the wall." width="100%" />
-</p>
+<br /><br />
 
-<br/>
+<a href="https://syedanimra.site.je/">Portfolio</a> ·
+<a href="https://www.linkedin.com/in/syeda-nimra-39a794349/">LinkedIn</a> ·
+<a href="https://www.instagram.com/nimr._.exe/">Instagram</a> ·
+<a href="https://github.com/syeda-nimra0">GitHub</a>
 
-<p align="center">
-  <em>studio log · 03:14</em><br/>
-  <em>the butterfly is awake.</em><br/>
-  <strong><em>same girl. bigger dreams.</em></strong>
-</p>
+</div>
 
-<br/>
-<hr/>
-<br/>
+<br />
 
-<!-- ============================================================= -->
-<!-- 01 — WHO'S BEHIND THE KEYBOARD                                -->
-<!-- ============================================================= -->
+---
 
-<p align="center">
-  <img src="./assets/section-01.svg" alt="01 — who's behind the keyboard" width="100%" />
-</p>
+### 02 — Live System
 
-<br/>
+<div align="center">
+  <img src="assets/live-system.svg" alt="Live panel showing follower count, public repo count, total stars, top language, and yearly contributions, pulled from the GitHub API." />
+</div>
 
-<p align="center">
-  I'm <strong>Nimra Basharat</strong> — a MERN stack developer and a system thinker,<br/>
-  building small, fast websites that feel like quiet worlds.
-</p>
+<i>Pulled straight from the GitHub REST + GraphQL APIs by a scheduled Action — nothing on this panel is typed in by hand. Refreshed every 12 hours, so treat the numbers as close, not instant.</i>
 
-<p align="center">
-  Based in <strong>Karachi, Pakistan</strong>.<br/>
-  Currently finishing a 14-month MERN program (until May 2026).<br/>
-  Available for freelance & collaborations.
-</p>
+---
 
-<p align="center">
-  <em>I don't ship templates. Every site is art-directed from scratch —<br/>
-  no two client projects share a palette, a typography system, or a layout.</em>
-</p>
+### 03 — Signal / Build Log
 
-<br/>
-<hr/>
-<br/>
+<div align="center">
+  <img src="assets/contribution-waveform.svg" alt="A custom waveform visualization of weekly GitHub contributions over the last six months, replacing the standard green contribution grid, with a short list of recent public activity." />
+</div>
 
-<!-- ============================================================= -->
-<!-- 02 — LIVE SIGNAL FROM GITHUB                                  -->
-<!-- ============================================================= -->
+<i>The usual green grid, redrawn as a signal instead of a calendar. Bar height is real weekly contribution volume from the GitHub GraphQL API; the lines underneath are the most recent public activity.</i>
 
-<p align="center">
-  <img src="./assets/section-02.svg" alt="02 — live signal from github" width="100%" />
-</p>
+---
 
-<br/>
+### 04 — Selected Work
 
-<p align="center">
-  <img src="./assets/live-status.svg" alt="Live status badge showing followers, repos, and last commit time. Refreshed hourly by GitHub Actions." width="100%" />
-</p>
+Three client builds, picked because they cover three different registers — commercial/print, personal portfolio, and a full personal brand site.
 
-<br/>
+<br />
 
-<p align="center">
-  <img src="./assets/contribution-wing.svg" alt="Recent 30 days of GitHub activity rendered as a butterfly wing. Each spot is a day. Brightness = commits that day." width="100%" />
-</p>
+**Printcivic** — Brand identity and commercial print studio site, built around a 200+ project, 50+ client track record across Nigeria. Dark, confident, print-led visual system.
+`Brand identity · Commercial print · Netlify`
+→ [printcivic.netlify.app](https://printcivic.netlify.app/)
 
-<br/>
+---
 
-<p align="center">
-  <img src="./assets/recent-commits.svg" alt="Recent commit messages, refreshed hourly by GitHub Actions." width="100%" />
-</p>
+**Afsheen** — Portfolio for a frontend developer and UI/UX designer, presenting responsive, elegant interface work across e-commerce, beauty, and restaurant brands.
+`Frontend portfolio · UI/UX · Netlify`
+→ [afsheen-portfolio.netlify.app](https://afsheen-portfolio.netlify.app/)
 
-<br/>
+---
 
-<p align="center">
-  <em>this signal refreshes hourly via GitHub Actions. not real-time — honest.</em>
-</p>
+**Fareed Amir** — Personal brand site for a full-stack/AI developer: video-driven hero, a scroll-paced experience timeline, and a live project showcase.
+`Personal brand site · Animated hero · Netlify`
+→ [fareed-amir.netlify.app](https://fareed-amir.netlify.app/)
 
-<br/>
-<hr/>
-<br/>
+---
 
-<!-- ============================================================= -->
-<!-- 03 — SPECIMENS COLLECTED                                      -->
-<!-- ============================================================= -->
+### 05 — Current State
 
-<p align="center">
-  <img src="./assets/section-03.svg" alt="03 — specimens collected" width="100%" />
-</p>
+<div align="center">
+  <img src="assets/current-state.svg" alt="Panel showing what Syeda Nimra is currently building and her current availability for freelance work." />
+</div>
 
-<br/>
+<i>Self-reported, not scraped — sourced from <a href="status.json"><code>status.json</code></a> in this repo. Edit that file and push; the panel above repaints itself.</i>
 
-<p align="center">
-  <em>three client sites. three completely different visual languages.<br/>
-  that's the point.</em>
-</p>
+---
 
-<br/>
+### 06 — Final Cut
 
-<p align="center">
-  <img src="./assets/specimen-01-afsheen.svg" alt="Specimen 01 — Afsheen Khan Portfolio. Warm editorial portfolio for a frontend developer in Pakistan." width="100%" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="./assets/specimen-02-printcivic.svg" alt="Specimen 02 — Printcivic. Dark premium studio site for a brand identity and commercial print shop in Nigeria." width="100%" />
-</p>
+<a href="https://syedanimra.site.je/">
+  <img src="assets/cta.svg" alt="This is only the trailer. Visit syedanimra.site.je for the full experience." />
+</a>
 
-<p align="center">
-  <img src="./assets/specimen-03-fareed.svg" alt="Specimen 03 — Fareed Amir Portfolio. Modern dark dev portfolio for a full-stack + AI developer in Pakistan." width="100%" />
-</p>
+<br /><br />
 
-<br/>
+**[→ watch the full film](https://syedanimra.site.je/)**
 
-<p align="center">
-  <em>more specimens live in the studio.</em>
-</p>
+</div>
 
-<br/>
-<hr/>
-<br/>
+<br />
 
-<!-- ============================================================= -->
-<!-- 04 — CURRENTLY BUILDING                                       -->
-<!-- ============================================================= -->
-
-<p align="center">
-  <img src="./assets/section-04.svg" alt="04 — currently building" width="100%" />
-</p>
-
-<br/>
-
-<p align="center">
-  <em>the cassette in the studio is playing —</em>
-</p>
-
-<p align="center">
-  <em>its label changes based on my most recent commit.</em>
-</p>
-
-<p align="center">
-  <em>look at the studio above, then check the live signal.</em><br/>
-  <em>if my last commit was within 24h, the lamp is glowing purple.</em>
-</p>
-
-<br/>
-<hr/>
-<br/>
-
-<!-- ============================================================= -->
-<!-- 05 — THE TRAILER                                              -->
-<!-- ============================================================= -->
-
-<p align="center">
-  <img src="./assets/section-05.svg" alt="05 — the trailer" width="100%" />
-</p>
-
-<br/>
-
-<p align="center">
-  <img src="./assets/trailer-cta.svg" alt="The butterfly flies upward and out of the README, heading toward the portfolio." width="100%" />
-</p>
-
-<br/>
-
-<p align="center">
-  <a href="https://syedanimra.site.je/"><strong>→ step inside the studio</strong></a>
-</p>
-
-<p align="center">
-  <em>https://syedanimra.site.je/</em>
-</p>
-
-<br/>
-<hr/>
-<br/>
-
-<!-- ============================================================= -->
-<!-- SOCIAL — plain text, no badges                                -->
-<!-- ============================================================= -->
-
-<p align="center">
-  <a href="https://github.com/syeda-nimra0/">github</a> &nbsp;·&nbsp;
-  <a href="https://syedanimra.site.je/">portfolio</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/syeda-nimra-39a794349/">linkedin</a> &nbsp;·&nbsp;
-  <a href="https://www.instagram.com/nimr._.exe/?hl=en">instagram</a> &nbsp;·&nbsp;
-  <a href="mailto:nimrasyeda37@gmail.com">email</a>
-</p>
-
-<br/>
-
-<p align="center">
-  <em>same girl. bigger dreams.</em>
-</p>
-
-<!--
-  End of README. The studio is quiet now.
-  Live data refreshes hourly. See SETUP.md for maintenance.
--->
+<div align="center"><sub>README = trailer. Portfolio = full experience.</sub></div>
