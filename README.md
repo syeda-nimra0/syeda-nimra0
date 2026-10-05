@@ -1,78 +1,122 @@
-<div align="center">
+<!-- my portfolio
+https://syedanimra.site.je/
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,100:A456B9&height=220&section=header&text=SYEDA%20NIMRA&fontSize=46&fontColor=f2f0f3&animation=fadeIn&fontAlignY=36&desc=Creative%20Developer%20%C2%B7%20Full-Stack%20Builder&descAlignY=58&descAlign=50&descSize=16&descColor=e3d3ea" />
+client project
 
-<a href="https://syedanimra.site.je/">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=16&duration=2500&pause=1200&color=A456B9&center=true&vCenter=true&width=560&lines=Building+immersive+web+experiences;Directing+interfaces%2C+not+just+coding+them;This+is+only+the+trailer" alt="Typing SVG" />
-</a>
+https://afsheen-portfolio.netlify.app/
+https://printcivic.netlify.app/
+https://fareed-amir.netlify.app/
 
-<br />
+socials 
+https://www.instagram.com/nimr._.exe/?hl=en
+https://www.facebook.com/profile.php?id=61594250800263
+https://www.linkedin.com/in/syeda-nimra-39a794349/ -->
 
-<a href="https://syedanimra.site.je/">Portfolio</a> ·
-<a href="https://www.linkedin.com/in/syeda-nimra-39a794349/">LinkedIn</a> ·
-<a href="https://www.instagram.com/nimr._.exe/">Instagram</a> ·
-<a href="https://github.com/syeda-nimra0">GitHub</a>
 
-</div>
 
-<br />
 
-### Live System
+# 👩‍💻 About Me
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=syeda-nimra0&show_icons=true&hide_border=true&theme=dark&bg_color=050505&title_color=A456B9&icon_color=A456B9&text_color=f2f0f3&hide_rank=false" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=syeda-nimra0&layout=compact&hide_border=true&theme=dark&bg_color=050505&title_color=A456B9&text_color=f2f0f3&langs_count=6" />
-</div>
+Hi, I'm **Nimra Basharat** — a **MERN Stack Developer and Frontend Developer** passionate about building modern, interactive, and user-focused web applications.
 
-<i>Live from the GitHub API on every page load — not typed in by hand.</i>
+I have completed my **MERN Stack Development training at Saylani Mass IT Training Program**, along with my **Introduction to Programming** course, building a strong foundation in programming, web development, and software development practices.
 
-<br />
+My primary focus is **JavaScript-based development**, with hands-on experience in **React.js, Node.js, Express.js, and MongoDB**. I also enjoy creating highly interactive frontend experiences using modern animation and creative development libraries.
 
-### Signal / Build Log
+### 🚀 What I Do
 
-<div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=syeda-nimra0&bg_color=050505&color=A456B9&line=A456B9&point=f2f0f3&area=true&area_color=A456B9&hide_border=true&custom_title=Contribution%20Signal" />
-</div>
+* Build modern **MERN Stack web applications**
+* Develop responsive and interactive **React.js interfaces**
+* Create smooth animations and micro-interactions
+* Build reusable and scalable frontend components
+* Work with REST APIs and backend services
+* Develop dynamic applications using JavaScript
+* Create visually engaging websites with modern UI/UX principles
+* Continuously improve code quality, performance, and user experience
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=syeda-nimra0&hide_border=true&background=050505&ring=A456B9&fire=A456B9&currStreakLabel=A456B9&sideNums=f2f0f3&sideLabels=8a8790&dates=8a8790&stroke=1c1c20" />
-</div>
+### 🎨 Frontend & Creative Development
 
-<br />
+I enjoy going beyond standard interfaces and creating experiences that feel polished and interactive.
 
-### Selected Work
+**Frontend:**
+React.js • JavaScript • HTML5 • CSS3 • Bootstrap • TypeScript
 
-Three client builds — commercial/print, a personal portfolio, and a full personal brand site.
+**Animation & Interaction:**
+GSAP • Framer Motion • Three.js • Anime.js • Lenis • React Bits
 
-**Printcivic** — Brand identity & commercial print studio site, built around a 200+ project, 50+ client track record across Nigeria.
-`Brand identity · Commercial print · Netlify`
-→ [printcivic.netlify.app](https://printcivic.netlify.app/)
+**Backend & Database:**
+Node.js • Express.js • MongoDB • Firebase
 
----
-
-**Afsheen** — Portfolio for a frontend developer & UI/UX designer, presenting responsive interface work across e-commerce, beauty, and restaurant brands.
-`Frontend portfolio · UI/UX · Netlify`
-→ [afsheen-portfolio.netlify.app](https://afsheen-portfolio.netlify.app/)
+**Tools & Deployment:**
+Git • GitHub • Netlify
 
 ---
 
-**Fareed Amir** — Personal brand site for a full-stack/AI developer: video-driven hero, scroll-paced experience timeline, and a live project showcase.
-`Personal brand site · Animated hero · Netlify`
-→ [fareed-amir.netlify.app](https://fareed-amir.netlify.app/)
+## 🛠️ Tech Stack
 
-<br />
+### Frontend
 
-### Current State
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge\&logo=javascript\&logoColor=F7DF1E)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge\&logo=typescript\&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-8511FA?style=for-the-badge\&logo=bootstrap\&logoColor=white)
 
-**Currently building** — Immersive web experiences, creative frontend interactions, animation-driven interfaces, and AI-powered products.
-**Availability** — Open to selected freelance projects and collaborations.
+### MERN Stack
 
-<br />
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge\&logo=mongodb\&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge\&logo=express\&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge\&logo=node.js\&logoColor=white)
 
-<div align="center">
+### ✨ Animation & Creative Libraries
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:A456B9,100:050505&height=160&section=footer" />
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge\&logo=greensock\&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge\&logo=three.js\&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-000000?style=for-the-badge\&logo=framer\&logoColor=white)
 
-<a href="https://syedanimra.site.je/"><b>THIS IS ONLY THE TRAILER → syedanimra.site.je</b></a>
+**Also working with:**
+`Anime.js` `Lenis` `React Bits`
 
-</div>
+### 🔧 Tools & Services
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge\&logo=github\&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge\&logo=firebase\&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-000000?style=for-the-badge\&logo=netlify\&logoColor=00C7B7)
+
+---
+
+## 🌐 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/syeda-nimra-39a794349/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:nimrasyeda37@gmail.com)
+
+---
+
+## 📊 GitHub Stats
+
+![](https://github-readme-stats.vercel.app/api?username=syeda-nimra0\&theme=ambient_gradient\&hide_border=false\&include_all_commits=true\&count_private=true)
+
+![](https://nirzak-streak-stats.vercel.app/?user=syeda-nimra0\&theme=ambient_gradient\&hide_border=false)
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=syeda-nimra0\&theme=ambient_gradient\&hide_border=false\&include_all_commits=true\&count_private=true\&layout=compact)
+
+---
+
+### ✍️ Developer Quote
+
+![](https://quotes-github-readme.vercel.app/api?type=horizontal\&theme=tokyonight)
+
+---
+
+### 👀 Profile Visitors
+
+![](https://visitcount.itsvg.in/api?id=syeda-nimra0\&icon=9\&color=0)
+
+---
+
+> **Code. Create. Iterate. Improve.**
+
+<!-- Proudly created with GPRM (https://gprm.itsvg.in) -->
